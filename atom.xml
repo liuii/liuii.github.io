@@ -1,45 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuii.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-03-28T08:17:33.269Z</updated>
+    <title>白菜吃帮</title>
+    <updated>2020-03-28T09:53:46.183Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuii.github.io"/>
     <link rel="self" href="https://liuii.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>刘洪普的个人网站</subtitle>
     <logo>https://liuii.github.io/images/avatar.png</logo>
     <icon>https://liuii.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 白菜吃帮</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://liuii.github.io/post/hello-gridea/</id>
-        <link href="https://liuii.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[《Neo4j快速入门指南》免费下载]]></title>
+        <id>https://liuii.github.io/post/lesslessneo4j-kuai-su-ru-men-zhi-nan-greatergreater/</id>
+        <link href="https://liuii.github.io/post/lesslessneo4j-kuai-su-ru-men-zhi-nan-greatergreater/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2020-03-28T09:36:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>知识图谱是一种以图（Graph）作为数据模型来存储知识或信息的技术，近年来广泛用于语义搜索、知识问答、决策支持、语音助理、可穿戴设备等领域。知识图谱的应用领域所要面对的数据通常具有如下特点：</p>
+<ul>
+<li>关系复杂的数据</li>
+<li>类型繁多的数据</li>
+<li>结构多变的数据</li>
+</ul>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>知识图谱是一种以图（Graph）作为数据模型来存储知识或信息的技术，近年来广泛用于语义搜索、知识问答、决策支持、语音助理、可穿戴设备等领域。知识图谱的应用领域所要面对的数据通常具有如下特点：</p>
+<ul>
+<li>关系复杂的数据</li>
+<li>类型繁多的数据</li>
+<li>结构多变的数据</li>
+</ul>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<p>在业务实现中，需要将适合知识图谱业务所需的数据以图谱的形式进行保存，目前知识图谱的存储方式有以下几种方式：</p>
+<ul>
+<li>关系数据库：以三元组表、属性表和垂直分割（以谓语划分的三元组表）来保存数据，但是因为自连接操作的巨大开销、缺乏灵活性等缺点，会限制图谱应用的性能。</li>
+<li>资源描述框架（Resource Description Framework，RDF）：是一种转为存储三元组形式的数据而设计的专用数据库，通过六重索引的方式解决三元组搜索的效率问题。缺点是空间开销大、更新维护代价大。</li>
+<li>原生图数据库：与使用关系建模的关系型数据库不同，原生图数据库在底层存储存储数据时采用原生图存储。在性能、灵活性和敏捷性上具有很大的优势，是建模、存储和查询关联数据的最佳方式。</li>
+</ul>
+<p>Neo4j 是一种原生图数据库，有着广泛的业务应用，本指南将介绍 Neo4j 数据库的环境配置、基本概念与查询语言，帮助读者快速掌握 Neo4j 的概念与基本使用方法。</p>
+<hr>
+<p>如果您在阅读过程中，发现本手册中的错误，希望您能指出，发到我的邮箱地址，万分感谢。<br>
+liuii#hebut.edu.cn</p>
+<p><strong>全文下载地址：</strong><br>
+链接：https://pan.baidu.com/s/1En76hwr4uUkMYsesZDWcRg<br>
+提取码：890b</p>
+<hr>
+<h2 id="本书包含以下章节">本书包含以下章节</h2>
+<ol>
+<li>Neo4j的安装和启动<br>
+1.1 Neo4j的安装<br>
+1.2 Neo4j的启动和使用<br>
+1.3 Neo4j的驱动与插件</li>
+<li>图数据库的基本概念<br>
+2.1 样例图<br>
+2.2 节点<br>
+2.3 标签<br>
+2.4 联系<br>
+2.5 联系的类型<br>
+2.6 属性<br>
+2.7 遍历与路径<br>
+2.8 模式<br>
+2.9 命名惯例</li>
+<li>Cypher简介<br>
+3.1 模式<br>
+3.2 使用模式<br>
+3.3 处理查询结果<br>
+3.4 组合较大的语句<br>
+3.5 定义模式<br>
+3.6 导入数据</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《Python光速入门》（未完结，更新到第8讲）]]></title>
+        <id>https://liuii.github.io/post/lesslesspython-guang-su-ru-men-greatergreater-wei-wan-jie-geng-xin-dao-di-8-jiang/</id>
+        <link href="https://liuii.github.io/post/lesslesspython-guang-su-ru-men-greatergreater-wei-wan-jie-geng-xin-dao-di-8-jiang/">
+        </link>
+        <updated>2020-03-28T09:22:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>本课程并非面向无任何编程经验的初学者，主要面向拥有过程式编程语言（例如：C语言）经验的同学，通过介绍Python语言的重要特性，快速掌握Python语言的使用。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本课程并非面向无任何编程经验的初学者，主要面向拥有过程式编程语言（例如：C语言）经验的同学，通过介绍Python语言的重要特性，快速掌握Python语言的使用。</p>
+<!-- more -->
+<p>课程地址：<a href="https://space.bilibili.com/21241234/channel/detail?cid=110515">Python光速入门</a></p>
+<p>本课程包括以下内容：</p>
+<ol>
+<li>环境配置</li>
+<li>基本数据类型</li>
+<li>序列类型</li>
+<li>字符串类型</li>
+<li>结构控制语句</li>
+<li>字典</li>
+<li>函数</li>
+<li>异常</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《Java程序设计基础》（未完结，更新到20讲）]]></title>
+        <id>https://liuii.github.io/post/lesslessjava-cheng-xu-she-ji-ji-chu-greatergreater-wei-wan-jie-geng-xin-dao-20-jiang/</id>
+        <link href="https://liuii.github.io/post/lesslessjava-cheng-xu-she-ji-ji-chu-greatergreater-wei-wan-jie-geng-xin-dao-20-jiang/">
+        </link>
+        <updated>2020-03-28T09:20:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>本课程并非面对初次学习编程的同学，主要面向已经学习过某款编程语言以及了解数据结构知识的同学。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本课程并非面对初次学习编程的同学，主要面向已经学习过某款编程语言以及了解数据结构知识的同学。</p>
+<!-- more -->
+<p>课程地址：<a href="https://space.bilibili.com/21241234/channel/detail?cid=110514">Java编程语言入门</a></p>
+<p>本课程包括以下章节：</p>
+<ol>
+<li>环境配置</li>
+<li>基本数据类型</li>
+<li>数组与字符串</li>
+<li>流程控制语句</li>
+<li>类与对象</li>
+<li>构造方法与文件读取</li>
+<li>继承</li>
+<li>方法重载、方法覆写和多态</li>
+<li>抽象类与<code>JAR</code>包的构建</li>
+<li>接口</li>
+<li>静态<code>static</code></li>
+<li>包与作用域</li>
+<li>枚举</li>
+<li>常用工具类</li>
+<li>异常</li>
+<li>列表<code>List</code></li>
+<li>映射<code>Map</code></li>
+<li>集合与迭代器</li>
+<li>泛型</li>
+<li>输入输出流</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《PyTorch深度学习实践》（完结）]]></title>
+        <id>https://liuii.github.io/post/pytorch-tutorials/</id>
+        <link href="https://liuii.github.io/post/pytorch-tutorials/">
+        </link>
+        <updated>2020-03-28T08:48:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>本课程面向初次接触深度学习的同学，偏重于实践，课程内容尽可能减少数学上的障碍，通过图解和代码解释深度学习工作的机制，以及代码的编写结构。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本课程面向初次接触深度学习的同学，偏重于实践，课程内容尽可能减少数学上的障碍，通过图解和代码解释深度学习工作的机制，以及代码的编写结构。</p>
+<!-- more -->
+<p>学习本课程需要的前置条件为：</p>
+<ul>
+<li>具有使用<code>Python</code> 语言编程的能力。</li>
+<li>拥有<code>线性代数</code>和<code>概率论与数理统计</code>的基础</li>
+</ul>
+<p>课程地址：<a href="https://www.bilibili.com/video/BV1Y7411d7Ys">PyTorch深度学习实践</a></p>
+<p>课件的下载地址：<br>
+链接：<a href="https://pan.baidu.com/s/1_J1f5VSyYl-Jj2qIuc1pXw">百度网盘</a><br>
+提取码：wyhu</p>
+<p>本课程包括以下章节：</p>
+<ol>
+<li>深度学习概论</li>
+<li>线性模型</li>
+<li>梯度下降算法</li>
+<li>反向传播</li>
+<li>用 <code>PyTorch</code> 实现线性回归</li>
+<li>逻辑斯蒂回归</li>
+<li>处理多维特征的输入</li>
+<li>加载数据集</li>
+<li>多分类问题</li>
+<li>卷积神经网络（基础篇）</li>
+<li>卷积神经网络（高级篇）</li>
+<li>循环神经网络（基础篇）</li>
+<li>循环神经网络（高级篇）</li>
+</ol>
 ]]></content>
     </entry>
 </feed>
