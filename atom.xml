@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuii.github.io</id>
     <title>刘二大人</title>
-    <updated>2020-03-28T13:03:58.156Z</updated>
+    <updated>2020-04-01T08:33:29.697Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuii.github.io"/>
     <link rel="self" href="https://liuii.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://liuii.github.io/images/avatar.png</logo>
     <icon>https://liuii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 刘二大人</rights>
+    <entry>
+        <title type="html"><![CDATA[《Scala入门手册》免费下载]]></title>
+        <id>https://liuii.github.io/post/lesslessscala-ru-men-shou-ce-greatergreater-mian-fei-xia-zai/</id>
+        <link href="https://liuii.github.io/post/lesslessscala-ru-men-shou-ce-greatergreater-mian-fei-xia-zai/">
+        </link>
+        <updated>2020-04-01T08:28:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>本手册由河北工业大学人工智能与数据科学学院刘洪普翻译。<br>
+本书原始链接：<a href="https://docs.scala-lang.org/overviews/scala-book/introduction.html">Scala Book</a><br>
+并根据课程内容进行了部分修改，时间仓促难免有错误，如果您发现错误请发邮件告知我，邮件地址在书中。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本手册由河北工业大学人工智能与数据科学学院刘洪普翻译。<br>
+本书原始链接：<a href="https://docs.scala-lang.org/overviews/scala-book/introduction.html">Scala Book</a><br>
+并根据课程内容进行了部分修改，时间仓促难免有错误，如果您发现错误请发邮件告知我，邮件地址在书中。</p>
+<!-- more -->
+<p>Scala 编程语言的一些特性特性：</p>
+<ul>
+<li>Scala 是一款高级语言（相对于汇编、机器语言等低级语言，或者 C 语言这样的中级语言）；</li>
+<li>Scala 是静态类型的（相对于 Python 这种动态类型语言）；</li>
+<li>Scala 的代码风格即简明又不乏可读性，极具表达力；</li>
+<li>Scala 支持面向对象的编程范式；</li>
+<li>Scala 支持函数式编程范式；</li>
+<li>Scala 具有成熟的推理系统；</li>
+<li>Scala 的代码编译为 <code>.class</code> 文件，需要在 Java 虚拟机（JVM）上运行。</li>
+<li>在 Scala 中可以方便的使用 Java 的库。</li>
+</ul>
+<p>当前文档版本：v 0.1-2020-04-01<br>
+下载地址：<a href="https://pan.baidu.com/s/1ANRTMblggW2_3IrtejorhQ">百度网盘</a><br>
+提取码：wco5</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《Neo4j快速入门指南》免费下载]]></title>
         <id>https://liuii.github.io/post/lesslessneo4j-kuai-su-ru-men-zhi-nan-greatergreater/</id>
