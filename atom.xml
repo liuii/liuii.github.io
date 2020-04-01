@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liuii.github.io</id>
     <title>刘二大人</title>
-    <updated>2020-04-01T08:33:29.697Z</updated>
+    <updated>2020-04-01T08:54:51.832Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liuii.github.io"/>
     <link rel="self" href="https://liuii.github.io/atom.xml"/>
@@ -24,7 +24,7 @@
 本书原始链接：<a href="https://docs.scala-lang.org/overviews/scala-book/introduction.html">Scala Book</a><br>
 并根据课程内容进行了部分修改，时间仓促难免有错误，如果您发现错误请发邮件告知我，邮件地址在书中。</p>
 <!-- more -->
-<p>Scala 编程语言的一些特性特性：</p>
+<p>Scala 编程语言的一些特性：</p>
 <ul>
 <li>Scala 是一款高级语言（相对于汇编、机器语言等低级语言，或者 C 语言这样的中级语言）；</li>
 <li>Scala 是静态类型的（相对于 Python 这种动态类型语言）；</li>
